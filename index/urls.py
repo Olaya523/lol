@@ -1,12 +1,7 @@
 from django.urls import path, include
 
-from cliente import views
-from pedido import views
-from articulo import views
-from index import views
-
+from .views import *
 
 urlpatterns = [
-    path('',views.hello),
-    path('index/',views.index),
+    path('index/',index),
 ]

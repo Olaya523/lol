@@ -7,4 +7,4 @@ def hello(Request):
     return HttpResponse("gnrreas")
 
 def index(Request):
-    return render(HttpRequest,'index.html')
+    return render(Request,'index.html')

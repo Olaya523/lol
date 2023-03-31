@@ -3,7 +3,7 @@ from django.db import models
 # Create your models here.
 
 class Pedidos(models.Model):
-    numeroID=models.IntegerField(max_length=100)
+    numeroID=models.IntegerField()
     fecha=models.DateField()
     entregado=models.BooleanField()
 
